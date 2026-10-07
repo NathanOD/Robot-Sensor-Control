@@ -1,0 +1,4 @@
+# list of the IP addresses of the devices in the network
+robot: 192.168.10.21
+jetson: 192.168.10.50
+gocator: 192.168.10.30

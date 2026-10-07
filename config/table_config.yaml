@@ -1,0 +1,10 @@
+# parameters of the table (in meters)
+height: 0.305
+width: 0.510
+delta_x: -0.05
+delta_y: -0.55
+delta_z: -0.320
+# rotation vector from base frame to table frame (Rodrigues, in radians)
+rot_x: 0.0
+rot_y: 0.0
+rot_z: 3.141592653589793

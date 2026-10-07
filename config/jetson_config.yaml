@@ -1,0 +1,5 @@
+jetson:
+  host: 192.168.10.50
+  username: <jetson_username>
+  password: <jetson_password>
+  port: 22

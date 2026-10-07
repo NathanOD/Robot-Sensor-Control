@@ -1,0 +1,7 @@
+pyyaml
+numpy
+scipy
+ur_rtde
+cffi
+open3d
+Pillow
