@@ -204,7 +204,7 @@ def main():
 
     rz_angle = torch_angle_from_line(welding_line_points_table[0], welding_line_points_table[1])
     
-    # Décalage selon l'orientation de la pièce
+    # Offset depending on the orientation of the part
     offset_x = -0.05 if rz_angle > 0 else 0.05
     #offset_y = 0.1 if rz_angle > 0 else -0.1
 

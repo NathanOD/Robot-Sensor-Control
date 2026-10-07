@@ -54,7 +54,7 @@ def save_pose_matrix(T, pose_num=0, save_dir=None, file_prefix="pcd_"):
         None
     """
     if save_dir is None:
-        # Détermine le dossier data/poses à la racine du projet pour correspondre à l'enregistrement
+        # Default to the data_gocator/poses folder at the project root, next to the saved scans
         root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         save_dir = os.path.join(root_dir, "data_gocator", "poses")
         
